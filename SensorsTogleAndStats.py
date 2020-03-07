@@ -327,8 +327,7 @@ class TempDataset():
 
 # def main():
 
-print("\nSTEM Center Temperature Project\n" \
-          "Victoria Vyedina\n")
+print("\nSTEM Center Temperature Project\n")
 
 sensors = {
         "4213": ('STEAM CENTER', 0),
