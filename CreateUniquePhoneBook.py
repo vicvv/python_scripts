@@ -31,7 +31,6 @@ def filemanip(composite_list):
     d = {}
     # getting records into separate lists
     # below dictionary is to make sure that we do not have a duplicate records
-    # because keys in dict are unique
     for item in composite_list:
         d[item[RECLNUM] + ' ' + item[RECFNUM]] = item[RECPHONE]
     return d
